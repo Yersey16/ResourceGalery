@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Login</title>
+  <title>Talleres</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -37,10 +37,9 @@
 </head>
 
 <body>
-
   <!-- ======= Header ======= -->
   <header id="header" class="d-flex align-items-center">
-    <div class="container d-flex justify-content-between">
+    <div class="container d-flex justify-content-between">  
 
       <div class="logo">
         <h1 class="text-light"><a href="index.html">ResourceGalery</a></h1>
@@ -52,84 +51,100 @@
         <ul>
           <li><a class="nav-link scrollto active" href="index.html">Inicio</a></li>
           <li><a class="nav-link scrollto" href="index.html#about">Que Somos</a></li>
+          <li><a class="nav-link scrollto" href="index.html#services">Buscar</a></li>
+          <li><a class="nav-link scrollto " href="index.html#portfolio">Compartir</a></li>
           <li><a class="nav-link scrollto" href="index.html#contact">Contacto</a></li>
+          <a href="registrer.html" class="btn-get-startedi">Iniciar Sesion</a>
         </ul>
+
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
+
 
     </div>
   </header><!-- End Header -->
 
   <main id="main">
 
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Talleres</h2>
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li>Talleres</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
     <!-- ======= Portfolio Details Section ======= -->
     <section id="portfolio-details" class="portfolio-details">
       <div class="container">
 
-        <div class="form-container">
-          <p class="title">Ingresar</p>
-          <form action="javascript:enviardatoss();">
-            <div class="input-group">
-              <label for="username">Documento</label>
-              <input type="number" name="cc" id="cc" placeholder="">
-            </div>
-            <div class="input-group">
-              <label for="username">Nombre de usuario</label>
-              <input type="text" name="username" id="username" placeholder="">
-            </div>
-            <div class="input-group">
-              <label for="username">Email</label>
-              <input type="text" name="email" id="email" placeholder="">
-            </div>
-            <div class="input-group">
-              <label for="password">Contraseña</label>
-              <input type="password" name="password" id="password" placeholder="">
-            </div>
-            <br>
-            <button class="sign">Registrarse</button>
-          </form>
+        <div class="row gy-4">
 
+          <div class="col-lg-4">
+            <div class="portfolio-info">
+              <h3>Taller - Gafas de RV </h3>
+              <ul>
+                <li><strong>Materia</strong>: Sistemas Operativos</li>
+                <li><strong>Autor</strong>: Jersey Torres</li>
+                <li><strong>Fecha</strong>: 22 Nov, 2023</li>
+                <li><a href="assets/files/talleres/tallergafasrealidadvirtual.pdf" download="GafasRealidadVirtual" ><button class="buttonDownload">Descargar</button></a></li>
+              </ul>
+            </div>
+          </div>
 
-          <br>
+          <div class="col-lg-4">
+            <div class="portfolio-info">
+              <h3>Taller - Cadenas De Markov </h3>
+              <ul>
+                <li><strong>Materia</strong>: Investigacion de Operaciones II</li>
+                <li><strong>Autor</strong>: Jersey Torres</li>
+                <li><strong>Fecha</strong>: 22 Nov, 2023</li>
+                <li><a href="assets/files/talleres/Cadenasdemarkov.docx" download="Cadenasdemarkov" ><button class="buttonDownload">Descargar</button></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="portfolio-info">
+              <h3>Taller - Cinematica</h3>
+              <ul>
+                <li><strong>Materia</strong>: Fisica</li>
+                <li><strong>Autor</strong>: Esteban Barbosa</li>
+                <li><strong>Fecha</strong>: 9 Nov, 2023</li>
+                <li><a href="assets/files/talleres/TALLERDECINEMATICA.pdf" download="TALLERDECINEMATICA" ><button class="buttonDownload">Descargar</button></a></li>
+              </ul>
+            </div>
+          </div>
+
         </div>
 
       </div>
     </section><!-- End Portfolio Details Section -->
 
-    <div class="container-fluid">
-      
-      <div class="container">
-  
-                  
-          <table class="table" id="tableD">
-            <thead>
-              <tr>
-                <th>No.</th>
-                <th>CC</th>
-                <th>Nombre de usuario</th>
-                <th>Email</th>
-                <th>Contraseña</th>
-                <th>Modificar</th>
-                <th>Eliminar</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                
-              </tr>
-              <tr>
-                
-              </tr>
-              <tr>
-                
-              </tr>
-            </tbody>
-          </table>
-        </div>
-  </div>
-
   </main><!-- End #main -->
 
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="container footer-bottom clearfix">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Remember</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/remember-free-multipurpose-bootstrap-template/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
