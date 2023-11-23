@@ -250,3 +250,58 @@
   new PureCounter();
 
 })()
+
+
+function enviardatos(){
+ 
+  var username=document.getElementById("username").value;
+  
+  var password = document.getElementById("password").value;
+  
+  
+  
+  document.getElementById("tableD").innerHTML+= `
+  <tr>
+    
+      <td>${username}</td>
+     
+      <td>${password}</td>  
+         
+  </tr>
+  `
+  
+  
+
+  //alert("los datos ingresados son: "+ documentos);
+
+}
+
+function enviardatoss(){
+ 
+  var cc = document.getElementById("cc").value;
+  var username=document.getElementById("username").value;
+  var email=document.getElementById("email").value;
+  var password = document.getElementById("password").value;
+  var count = 0
+  // var ver = document.getElementById("sing");
+  // alert("esto es: "+ ver);
+  if (document.getElementById("sing") == null) {
+    count++
+  }
+  
+  document.getElementById("tableD").innerHTML+= `
+  <tr>
+      <td>${count}</td>
+      <td>${cc}</td>
+      <td>${username}</td>
+      <td>${email}</td>
+      <td>${password}</td>  
+         
+  </tr>
+  `
+  
+  
+
+  //alert("los datos ingresados son: "+ documentos);
+
+}
