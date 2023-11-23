@@ -282,16 +282,9 @@ function enviardatoss(){
   var username=document.getElementById("username").value;
   var email=document.getElementById("email").value;
   var password = document.getElementById("password").value;
-  var count = 0
-  // var ver = document.getElementById("sing");
-  // alert("esto es: "+ ver);
-  if (document.getElementById("sing") == null) {
-    count++
-  }
   
   document.getElementById("tableD").innerHTML+= `
   <tr>
-      <td>${count}</td>
       <td>${cc}</td>
       <td>${username}</td>
       <td>${email}</td>
